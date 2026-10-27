@@ -16,5 +16,5 @@ def analyze_login(username: str, success: bool) -> dict:
     return {
         "username": username,
         "risk_level": risk,
-        "inding": finding
+        "finding": finding
     }
